@@ -43,21 +43,15 @@
         </div>
     </div>
 
-    <audio autoplay loop id="backgroundMusic">
-        <source src="music.mp3" type="audio/mpeg">
-        Ваш браузер не поддерживает аудио.
-    </audio>
-
     <script src="script.js"></script>
 </body>
 </html>
-
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     color: white;
-    background-image: url('https://i.pinimg.com/736x/63/a5/d3/63a5d36e205c77c3cd71038b690d2730.jpg'); 
+    background-image: url('https://i.pinimg.com/736x/63/a5/d3/63a5d36e205c77c3cd71038b690d2730.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +63,7 @@ body {
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
